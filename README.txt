@@ -36,9 +36,10 @@ Steps to Compile and Run the Application
 
    - Delete a student
      python app.py delete 3
-Demonstration video: https://youtu.be/Sw3Mk8ZkWh8
 
 7. Check the results in pgAdmin by running:
    SELECT * FROM students ORDER BY student_id;
 
    The records displayed in pgAdmin should match the console output.
+
+Demonstration video: https://youtu.be/Sw3Mk8ZkWh8
